@@ -1,0 +1,34 @@
+.currrntBalance {
+    margin: 0 auto;
+      background-color: #1c3852;
+      height: 130px;
+      text-align: center;
+      padding: 20px 0px;
+      border-radius: 10px;
+    }
+    .balance {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .green {
+      color: #17ce67;
+    }
+    .Cbalance {
+      font-size: 25px;
+      color: white;
+    }
+    /* Media Querries */
+    @media (max-width: 440px) {
+      .currrntBalance {
+        width: 300px;
+        background-color: #1c3852;
+        height: 100px;
+        text-align: center;
+        padding: 10px 0px;
+        border-radius: 10px;
+      }
+      .Cbalance {
+        font-size: 20px;
+        color: white;
+      }
+    }

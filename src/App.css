@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #d5e3ef;
+  min-height: 100vh;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abc {
+  padding-top: 20px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #d6dce1;
+  margin-bottom: 20px;
+}
+
+.ContentBody {
+  padding: 20px 20px;
+}
+.hr {
+  margin: 20px 20px;
+  /* width: 50%; */
+}
+.secName_History {
+  margin-top: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e85560; 
+}
+/* Media Querries */
+@media (max-width: 440px) {
+  .abc {
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #d6dce1;
+    margin-bottom: 20px;
+  }
+}

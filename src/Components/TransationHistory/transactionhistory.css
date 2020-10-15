@@ -1,0 +1,57 @@
+.historyIn {
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-right: 15px solid #449d44;
+  }
+  
+  .historyEx {
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-right: 15px solid #c9302c;
+  }
+  .deleteBtn {
+    color: #c9302c;
+    opacity: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    
+  }
+  .historyIn:hover .deleteBtn {
+    opacity: 1;
+  }
+  .historyEx:hover .deleteBtn {
+    opacity: 1;
+  }
+  .deleteBtn:hover {
+    cursor: pointer;
+  }
+  .historyWrapper {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .noHistory{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  /* Media Querries */
+  @media (max-width: 440px) {
+    .history,
+    .history1 {
+      font-size: 15px;
+    }
+  }
